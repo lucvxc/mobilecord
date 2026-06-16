@@ -1,15 +1,15 @@
 {
   "name": "mobilecord",
-  "module": "index.ts",
+  "version": "1.4.0",
   "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
+  "main": "dist/index.js",
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
     "discord.js": "^14.26.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
   }
 }
