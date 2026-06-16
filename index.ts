@@ -18,6 +18,13 @@ export function status(device = "android") {
           "Discord iOS";
         DefaultWebSocketManagerOptions.identifyProperties.os = "ios";
       }
+      else if (device === "vr" || device === "VR") {
+        DefaultWebSocketManagerOptions.identifyProperties.browser =
+          "Discord VR";
+        DefaultWebSocketManagerOptions.identifyProperties.device =
+          "Discord VR";
+        DefaultWebSocketManagerOptions.identifyProperties.os = "vr";
+      }
     }
   } catch (err) {
     console.error(err);
