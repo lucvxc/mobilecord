@@ -1,4 +1,4 @@
-# mobilecord
+# mobilecord 1.4.0 (UPDATED JUN. 15th 2026)
 
 Set Discord bot mobile status for Node.js, Bun, TypeScript, and JavaScript.
 
@@ -23,8 +23,8 @@ status();
 >
 > - `status("ios")` sets the status to iOS  
 > - `status("android")` sets the status to Android  
->  
-> _This will NOT change the difference or look._
+> - `status("vr")` sets the status to vr   
+> _This will NOT change the difference or look if you use teh ios or the android option, but the vr one will provide a different icon._
 
 
 ## Contact
